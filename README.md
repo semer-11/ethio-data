@@ -32,7 +32,7 @@ fetch('/api/city', {
 ```
 
 # Contributions
-Contributions to the Ethiopian Data API are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+Contributions to the Ethiopian Data API are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. [Read More here](https://github.com/semer-11/ethio-data/blob/main/CONTRIBUTING.md)
 
 # License
 This project is licensed under the MIT License.
