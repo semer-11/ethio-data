@@ -13,9 +13,6 @@ use App\Models\Celebrity;
 use App\Models\City;
 use App\Models\Name;
 use App\Models\Woreda;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Validation\Rule;
 
 class DataController extends Controller
 {
