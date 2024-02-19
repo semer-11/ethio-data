@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Hanan Tariq",
+        "industry": "Film",
+        "gender": "female",
+        "image": "https://i.pinimg.com/564x/4e/84/cd/4e84cdfed43e23e1ec053f104635d086.jpg",
+        "social_links": {
+            "instagram": "https://www.instagram.com/hanan__tarq",
+            "facebook": "https://www.facebook.com/profile.php?id=100083704982350",
+            "tiktok": "https://vm.tiktok.com/ZM6VxGvDr/",
+            "telegram": "",
+            "website": "https://hanantarq.com"
+        },
+        "lang": "en"
+    },
+    {
+        "name": "ሀናን ታሪክ",
+        "industry": "ፊልም",
+        "gender": "ሴት",
+        "image": "https://i.pinimg.com/564x/4e/84/cd/4e84cdfed43e23e1ec053f104635d086.jpg",
+        "social_links": {
+            "instagram": "https://www.instagram.com/hanan__tarq",
+            "facebook": "https://www.facebook.com/profile.php?id=100083704982350",
+            "tiktok": "https://vm.tiktok.com/ZM6VxGvDr/",
+            "telegram": "",
+            "website": "https://hanantarq.com"
+        },
+        "lang": "am"
+    },
+    {
+        "name": "Rophnan Nuri",
+        "industry": "Music",
+        "gender": "male",
+        "image": "https://www.okayafrica.com/media-library/image.jpg?id=30180747",
+        "social_links": {
+            "instagram": "https://www.instagram.com/rophnan/",
+            "facebook": "https://www.facebook.com/RophnanOfficial",
+            "tiktok": "https://vm.tiktok.com/ZM6VxtCTb/",
+            "telegram": "https://t.me/rophnan",
+            "website": "https://rophnan.com"
+        },
+        "lang": "en"
+    },
+    {
+        "name": "ሮፍናን ኑሪ",
+        "gender": "ወንድ",
+        "industry": "ሙዚቃ",
+        "image": "https://www.okayafrica.com/media-library/image.jpg?id=30180747",
+        "social_links": {
+            "instagram": "https://www.instagram.com/rophnan/",
+            "facebook": "https://www.facebook.com/RophnanOfficial",
+            "tiktok": "https://vm.tiktok.com/ZM6VxtCTb/",
+            "telegram": "https://t.me/rophnan",
+            "website": "https://rophnan.com"
+        },
+        "lang": "am"
+    }
+]

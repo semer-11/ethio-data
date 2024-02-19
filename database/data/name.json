@@ -1,0 +1,19 @@
+[
+    {
+        "first_name":"Eneb",
+        "middle_name":"Seid",
+        "last_name":"Yimam",
+        "gender":"Female",
+        "religion":"Islam",
+        "lang":"en"
+    },
+    {
+        "first_name":"ኢነብ",
+        "middle_name":"ሰኢድ",
+        "last_name":"ይማም",
+        "gender":"ሴት",
+        "religion":"ኢስላም",
+        "lang":"am"
+    }
+
+]
