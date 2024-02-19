@@ -20,47 +20,39 @@ class DataController extends Controller
 
     public function name(NameRequest $request)
     {
-        
-        $filters = $request->only(filterable('names'));
-        $limit = $request->limit ?? 1;
-        $fields = $request->fields ?? ["*"];
-        $data = Name::where($filters)->inRandomOrder()->limit($limit)->get($fields);
+        $data = $this->data(Name::class, $request, 'names');
         return response(['status' => 'success', 'data' => $data]);
     }
 
     public function woreda(WoredaRequest $request)
     {
-        $filters = $request->only(filterable('woredas'));
-        $limit = $request->limit ?? 1;
-        $fields = $request->fields ?? ["*"];
-        $data = Woreda::where($filters)->inRandomOrder()->limit($limit)->get($fields);
+        $data = $this->data(Woreda::class, $request, 'woredas');
         return response(['status' => 'success', 'data' => $data]);
     }
 
     public function city(CityRequest $request)
     {
-        $filters = $request->only(filterable('city'));
-        $limit = $request->limit ?? 1;
-        $fields = $request->fields ?? ["*"];
-        $data = City::where($filters)->inRandomOrder()->limit($limit)->get($fields);
+        $data = $this->data(City::class, $request, 'city');
         return response(['status' => 'success', 'data' => $data]);
     }
 
     public function celebrity(CelebrityRequest $request)
     {
-        $filters = $request->only(filterable('celebrities'));
-        $limit = $request->limit ?? 1;
-        $fields = $request->fields ?? ["*"];
-        $data = Celebrity::where($filters)->inRandomOrder()->limit($limit)->get($fields);
+        $data = $this->data(Celebrity::class, $request, 'celebrities');
         return response(['status' => 'success', 'data' => $data]);
     }
 
     public function bank(BankRequest $request)
     {
-        $filters = $request->only(filterable('celebrities'));
+        $data = $this->data(Bank::class, $request, 'bank');
+        return response(['status' => 'success', 'data' => $data]);
+    }
+
+    private function data($model, $request, $type)
+    {
+        $filters = $request->only(filterable($type));
         $limit = $request->limit ?? 1;
         $fields = $request->fields ?? ["*"];
-        $data = Bank::where($filters)->inRandomOrder()->limit($limit)->get($fields);
-        return response(['status' => 'success', 'data' => $data]);
+        return $model::where($filters)->inRandomOrder()->limit($limit)->get($fields);
     }
 }
